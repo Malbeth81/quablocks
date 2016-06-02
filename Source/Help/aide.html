@@ -1,0 +1,246 @@
+<html>
+<head>
+    <title>AlphaChess 3</title>
+    <meta name="author" content="Marc-Andre Lamothe">
+    <meta name="generator" content="TED Notepad">
+    <style type="text/css"><!--
+      body, table {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+      a {color: #3253BE;}
+      a:visisted {color: #3253BE;}
+      a:hover {background-color: #3253BE; color: #FFFFFF;}
+      h1 {font-size: 22px;} h3 {font-size: 16px;} h3 {font-size: 14px;} h4 {font-size: 12px;} h5 {font-size: 10px;}
+      ul {list-style-type: disc;} ul ul {list-style-type: circle;} ul ul ul {list-style-type: square;}
+      .black {color: #000000; font-weight: bold;)
+    --></style>
+</head>
+<body><table border="0" width="650"><tr><td>
+  <h1>AlphaChess 3</h1>
+  <p>Pour plus d'information visitez mon site web <a href="http://www.marcandre.info" target="_blank">http://www.marcandre.info</a><br>
+  ou &eacute;crivez-moi &agrave; <a href="mailto:marc@marcandre.info">marc@marcandre.info</a></p>
+  <p>Copyright &copy;2003-2005 Marc-andr&eacute; Lamothe.<hr>
+  <a href="help.html">Click here for the english version</a></p><br>
+
+  <ol>
+    <li><a class="black" href="#Intro">Introduction</a><ul>
+      <li><a href="#Desc">Description</a></li>
+      <li><a href="#Hist">Historique</a></li>
+    </ul></li>
+    <li><a class="black" href="#AChess">AlphaChess</a><ul>
+      <li><a href="#Interf">Interfaces</a><ul>
+        <li><a href="#Board">Planche de jeu</a></li>
+        <li><a href="#Options">Options</a></li>
+      </ul></li>
+      <li><a href="#Multi">Multi-joueur</a><ul>
+        <li><a href="#Local">Partie locale</a></li>
+        <li><a href="#Network">Partie r&eacute;seau</a></li>
+      </ul></li>
+    </ul></li>
+    <li><a class="black" href="#Concl">Conclusion</a></li>
+  </ol><br><br>
+
+  <a name="Intro"></a>
+  <dl><dt><h2>1. Introduction</h2></dt></dl>
+
+  <a name="Desc"></a>
+  <dl><dt><h3>1.1 Description</h3></dt>
+  <dd>
+    <p>AlphaChess est un superbe jeu d'&eacute;chec vous permettant de jouer
+    en mode local (deux joueurs sur le m&ecirc;me ordinateur) ou de jouer en ligne
+    contre l'adversaire de votre choix.</p>
+
+    <p>AlphaChess poss&egrave;de une planche de jeu unique personalisable,
+    vous pouvez modifier toutes les couleurs des &eacute;l&eacute;ments qui la composent,
+    10 th&egrave;mes de couleurs sont inclus dans le jeu et vous pouvez
+    facilement sauvegarder ou modifier vos propres th&egrave;mes. Vous pouvez aussi
+    choisir parmis 20 ensembles de pi&egrave;ces.</p>
+  </dd></dl><br>
+
+  <a name="Hist"></a>
+  <dl><dt><h3>1.2 Historique</h3></dt>
+  <dd>
+   <p>Ce programme &agrave; d&eacute;buter par un projet scolaire en Java et il
+   d&eacute;passait largement le cadre et les exigeances du cours lorsqu'il f&ucirc;t
+   termin&eacute;. Mais il n'&eacute;tais pas complet et ce n'est qu'en
+   &eacute;t&eacute; 2003 que commen&ccedil;a les travaux pour en faire un vrai jeu
+   d'&eacute;chec. Pour cela le code &agrave; &eacute;t&eacute; traduit du
+   language java au language pascal et en Juillet 2003 la premi&egrave;re version f&ucirc;t
+   termin&eacute;e.</p>
+
+   <p>Ensuite les travaux commenc&egrave;res pour ajouter le mode de jeu en ligne et 
+   &agrave; peine quelques semaine plus tard la version 2 &eacute;tais termin&eacute; mais
+   m&ecirc;me apr&egrave;s plusieurs modifications &agrave; la version 2, le jeu en 
+   r&eacute;seau &eacute;tais toujours tr&egrave;s instable. Plus d'un ans apr&egrave;s
+   les derni&eacute;re modifications sur la version 2 commenc&egrave;rent les travaux sur
+   la version 3, dans laquelle tout le code du jeu en r&eacute;seau f&ucirc;t
+   r&eacute;&eacute;cris et isol&eacute; du reste du programme. Finnalement, en 
+   d&eacute;cembre 2004, la version 3 f&ucirc;t termin&eacute;e, ajoutant aussi de
+   nombreuses nouvelles fonctionnalit&eacute; en plus de la stabilit&eacute; du jeu en ligne.
+  </dd></dl><br>
+
+  <a name="AChess"></a>
+  <dl><dt><h2>2. AlphaChess</h2></dt>
+  <dd>
+   <p>AlphaChess est l'un des plus beau jeu d'&eacute;chec en ligne qui soit, son interface
+   graphique simple et intuitive fait en sorte qu'il est d'une simplicit&eacute;
+   remarquable d'y jouer.</p>
+  </dd></dl><br>
+
+  <a name="Interf"></a>
+  <dl><dt><h3>2.1 Interfaces</h3></dt>
+  <dd></dd></dl><br>
+
+  <a name="Board"></a>
+  <dl><dt><h5>2.1.1 Planche de jeu</h5></dt>
+  <dd>
+   <p>Voici la planche de jeu ainsi que la fen&egrave;tre principale :</p>
+   <img src="images/f01.jpg"><br>
+   <p>Pour jouer vous n'avez qu'&agrave; cliquer sur le menu Jeu puis sur 
+   "Jouer une partie locale" ou sur "Jouer une partie r&eacute;seau". Sur le cot&eacute;
+   gauche de la fen&ecirc;tre est situ&eacute; les informations sur la partie tel que
+   le nom des joueurs, le temps &eacute;coul&eacute; depuis le d&eacute;but de la partie,
+   la zone de notification (indiquant le r&eacute;sultat d'un coup) ansi que l'historique
+   des coups jou&eacute;es.</p>
+
+   <p>Pour d&eacute;placer une pi&egrave;ce vous n'avez qu'&agrave; cliquez desssus 
+   (la couleur de la case change pour indiqu&eacute; la s&eacute;lection) puis cliquez
+   sur la case o&ugrave; vous souhaitez la d&eacute;plac&eacute;e. Il est aussi possible
+   de d&eacute;placer les pi&egrave;ces par un glisser-d&eacute;placer, en maintenant le
+   bouton de la souris enfonc&eacute; et en le relachant sur la case de destination.<p>
+
+   <p>Les cases de la planche de jeu changent de couleurs lorsque le curseur de votre souris
+   passe au dessus, ainsi que lorsqu'une pi&egrave;ce est s&eacute;lection&eacute;. Pendant le
+   d&eacute;placement d'une pi&egrave;ce la couleur de la case vous indique si ce
+   d&eacute;placement est possible, lorsque le "Mode apprentissage" est activ&eacute;
+   dans les options. Il est aussi possible de choisir la couleur des cases &agrave;
+   chaque moment dans les options.</p>
+
+   <p>Pendant la partie il est possible de reprendre un coup en cliquant sur le menu Jeu et
+   sur "Annuler le dernier coup", vous pouvez aussi interrompre (pause) ou abandonner la
+   partie dans ce menu. Il est possible d'inverser la planche de jeu en cliquant
+   sur le menu Affichage puis sur "Inverser la planche de jeu", ce qui inverse la
+   position des joueurs, vous pouvez aussi utilis&eacute; la fen&ecirc;tre de conversation
+   pour communiquer avec votre adversaire, l'historique des parties jou&eacute;e et les
+   options sont aussi disponibles dans ce menu.</p>
+  </dd></dl><br>
+
+  <a name="Options"></a>
+  <dl><dt><h5>2.1.2 Options</h5></dt>
+  <dd>
+   <p>Voici les options de AlphaChess :</p>
+   <img src="images/f02.jpg"><br>
+
+   <p>Dans la section Jeu il est possible d'activer la recherche automatique de mises
+   &agrave; jour lors de l'ouverture du jeu, ainsi que le mode apprentisage qui vous 
+   afficheras par la couleur de la case sur laquelle vous souhaitez d&eacute;placer une
+   pi&egrave;ce si ce d&eacute;placement est permis ou non.</p>
+
+   <p>Vous pouvez aussi choisir en quelle langue vous souhaitez que le jeu soit affich&eacute;.
+   Pr&eacute;sentement le jeu n'est disponible qu'en anglais et fran&ccedil;ais, mais
+   d'autres langues pourrait s'ajouter &agrave; cette liste bient&ocirc;t.</p>
+
+   <p>Il est aussi possible de choisir le serveur de parties que vous d&eacute;sirer
+   utiliser. Il n'y en a qu'un de disponible pour l'instant et donc cette option devrait
+   toujours indiquer http://www.marcandre.info. Si lorsque vous d&eacute;sirez joindre une
+   partie en ligne un message vous indique qu'il est impossible de joindre le serveur de
+   partie, v&eacute;rifiez si cette option indique le bon serveur.</p>
+
+   <img src="images/f03.jpg"><br>
+
+   <p>Dans la section Planche vous pouvez modifi&eacute; les couleurs de la planche de
+   jeu ainsi que celles des cases pour chacun de leurs &eacute;tats. Vous pouvez aussi
+   choisir quelle style de case vous d&eacute;sirez avoir, le style Classic afficheras
+   toutes les cases une &agrave; cot&eacute; de l'autre (sans espace ni bordure), alors
+   que le style Am&eacute;lior&eacute; s&eacute;pareras toutes les cases d'un espace et 
+   afficheras une bordure pour chacune (l'image plus haut montre le style
+   Am&eacute;lior&eacute;).</p>
+
+   <p>Gr&acirc;ces au th&egrave;mes vous pouvez facilement changer toutes les couleurs
+   de le planche de jeu en m&ecirc;me temps lorsque vous choissez un th&egrave;me dans
+   la liste. Pour ajouter un th&egrave;me, &eacute;crivez le nom souhait&eacute; et
+   cliquer sur Ajouter, si un th&egrave;me avec ce nom existe d&eacute;ja, un message
+   vous demanderas si vous souhaitez le remplacer par le nouveau. Pour supprimer un
+   th&egrave;me de la liste, selectionnez le puis cliquez sur Effacer.</p>
+
+   <img src="images/f04.jpg"><br>
+
+   <p>Dans la section Pi&egrave;ces vous pouvez choisir l'ensemble de pi&egrave;ces que
+   vous souhaitez utilis&eacute;, 20 ensembles sont inclus avec le jeu. Depuis la version
+   3.0.6, vous ne pouvez plus ajoutez vos propres ensembles de pi&egrave;ces mais vous
+   pouvez d&eacute;sormais changer la couleur de celles-ci. Le Mode d'affichage Standard
+   afficheras les pi&egrave;ces avec leurs couleur pars d&eacute;faut (noir & blanc)
+   tandis que le mode Color&eacute; vous permetras de choisir la couleur des pi&egrave;ces
+   pour chaque joueur.</p>
+
+   <p>Notez que le mode Color&eacute; afficheras toujours les pi&egrave;ces avec un cadre
+   noir et que seul la couleur de fond seras chang&eacute;e, il est donc
+   d&eacute;conseill&eacute; de mettre des couleurs fonc&eacute;es ou de mettre la
+   m&ecirc;me couleur pour les deux joueurs.</p>
+
+  </dd></dl><br>
+
+  <a name="Multi"></a>
+  <dl><dt><h3>2.2 Multi-joueur</h3></dt>
+  <dd>
+   <p>AlphaChess est un jeu d'&eacute;checs compl&egrave;tement multi-joueur, c'est
+   &agrave; dire que vous pouvez seulement jouer contre un autre joueur, soit sur le
+   m&ecirc;me ordinateur ou sur deux ordinateurs connect&eacute; en r&eacute;seau ou sur
+   internet.</p>
+  </dd></dl><br>
+
+  <a name="Local"></a>
+  <dl><dt><h5>2.2.1 Partie locale</h5></dt>
+  <dd>
+   <p>Pour jouer une partie locale (deux joueurs sur le m&ecirc;me ordinateur), il suffit
+   de cliquer sur "Jouer une partie locale" dans le menu Jeu, puis d'entrer le noms
+   des deux joueurs et de cliquer sur Ok dans la fen&ecirc;tre ci-dessous, la partie
+   commenceras imm&eacute;diatement.</p>
+   <img src="images/f05.jpg">
+  </dd></dl><br>
+
+  <a name="Network"></a>
+  <dl><dt><h5>2.2.2 Partie r&eacute;seau</h5></dt>
+  <dd>
+   <p>Pour jouer une partie r&eacute;seau (avec un joueur sur un autre ordinateur)
+   il suffit de cliquer sur "Jouer une partie r&eacute;seau" dans le menu Jeu, 
+   apr&egrave;s avoir entr&eacute; votre nom vous devez sp&eacute;cifier si vous
+   souhaitez joindre une partie qui figure dans la liste de parties, joindre une
+   partie &agrave; une adresse sp&eacute;cifique ou cr&eacute;er une nouvelle partie.</p>
+   <img src="images/f06.jpg">
+
+   <p>Si vous choissez de joindre une partie dans la liste, vous n'avez qu'a 
+   s&eacute;lectionn&eacute;e la partie d&eacute;sir&eacute;e et &agrave; cliquer sur
+   Ok. Si la liste est vide c'est qu'aucune partie n'est disponible sur internet. 
+   Si un message d'erreur indiquant qu'il est impossible d'acc&eacute;der &agrave; la
+   liste sur le serveur de parties s'affiche lorsque vous choisissez de faire une partie
+   r&eacute;seau c'est que le serveur de parties est innacessible ou alors que le mauvais
+   serveur est s&eacute;lectionner dans les options.</p>
+
+   <p>Si vous choissez de joindre une partie &agrave; une adresse sp&eacute;cifique, vous
+   devez alors tapper l'addresse IP de l'ordinateur sur lequel une partie r&eacute;seau
+   &agrave; &eacute;t&eacute; cr&eacute;e.</p>
+
+   <p>Si vous choissez de cr&eacute;er une partie, vous devez alors choisir avec quelle
+   couleur vous souhaitez jouer. Le joueur blanc est toujours celui qui joue le premier.
+   Pour pouvoir cr&eacute;er une partie r&eacute;seau il faut que votre ordinateur ai un
+   acc&egrave;s direct &agrave; internet, si votre acc&egrave;s &agrave; internet
+   est partag&eacute; entre plusieurs ordinateur gr&acirc;ce &agrave un router cela ne
+   seras pas possible &agrave; moins de configurer votre router pour rediriger les
+   donn&eacute;es qu'il recoit sur le <b>port 2570</b> vers votre ordinateur, pour cela il
+   faudra par contre que vore ordinateur ai une addresse ip fixe. Pous plus d'information
+   veuillez contacter votre technicien.</p>
+  </dd></dl><br>
+
+  <a name="Concl"></a>
+  <dl><dt><h2>3. Conclusion</h2></dt>
+  <dd>
+    <p>AlphaChess est le jeu d'&eacute;chec par excellence pour vous divertir avec vos
+    amis de n'importe o&ugrave; dans le monde que vous soyez expert ou novice.
+    Pour toute autre information, question ou commentaire, vous pouvez m'&eacute;crire
+    &agrave; l'addresse suivante : <a href="mailto:marc@marcandre.info">marc@marcandre.info</a>.</p>
+
+    <p>Merci d'utiliser AlphaChess.</p>
+  </dd></dl><br>
+
+ </td></tr></table>
+</body>
+</html>

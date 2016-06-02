@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=help.chm
+Default Window=Main
+Default topic=Help.html
+Display compile progress=Yes
+Language=0x1009 English (Canada)
+Title=AlphaChess Help
+
+[WINDOWS]
+Main=,,,"Help.html","Help.html",,,,,0x2000,,0x3006,[0,0,700,500],0x30000,,,,,,0
+
+
+[FILES]
+Help.html
+Aide.html
+
+[INFOTYPES]
+

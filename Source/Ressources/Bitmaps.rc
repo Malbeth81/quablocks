@@ -1,0 +1,3 @@
+Tiles BITMAP "tiles.bmp"
+Digits BITMAP "digits.bmp"
+Dissolve BITMAP "dissolve.bmp"

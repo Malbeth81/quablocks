@@ -1,0 +1,16 @@
+29/01/2006 : version 2.0.0
+
+	- Added new animated graphical interface.
+	- Added new mouse controls.
+	- Added new network engine code making the game alot more stable.
+	- Added chat support to converse with people online.
+	- Added new options.
+	- Added support for new generation language files.
+	- Changed the score given for each block.
+	- Changed the gameplay, only the block of the current player is displayed.
+	- Changed the time display from general to player specific.
+	- Alot of other minor updates or bug fixes.
+
+09/08/2005 : Version 1.0.0
+
+	First release.

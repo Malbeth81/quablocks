@@ -1,0 +1,21 @@
+QuaBlocks
+Copyright 2005, Marc-André Lamothe
+All rights reserved. Tout droits réservés.
+
+Redistribution and use of this software, is permitted provided that the following conditions are met :
+ * You may not alter or distribute altered version the software in any way possible.
+ * You may not redistribute this software for commercial purposes.
+ * You can distribute copies of this software as long as it remains free, you cannot make profit from distributing this software.
+ * Distributions must provide the above copyright notice, this list of conditions, the following disclaimer and non altered version of the software with the distribution.
+ * Neither the name of the Vendeur Virtuel nor the names of its contributors may be used to endorse or promote this software.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF GOODS OR SERVICES ; LOSS OF USE, DATA, OR PROFITS ; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+La redistribution ainsi que l'utilisation de ce logiciel est permise tant que les conditions suivantes sont remplies :
+ * Vous ne pouvez modifier ou distribuer des versions modifiée de ce logiciel de n'importe quelle façon possible.
+ * Vous ne pouvez distribuer ce logiciel à des fins commerciales.
+ * Vous pouvez distribuer des copies de ce logiciel tant qu'il reste gratuit, vous ne pouvez, en aucun cas, faire un profit pour la distribution de ce logiciel.
+ * Toute distribution doit contenir le copyright ci-dessus, cette liste de conditions, la déclaration ci-dessous et une version non modifiée de ce logiciel seulement.
+ * Le nom de Vendeur Virtuel ou le nom d'un de ses associés ne peut être utiliser pour endosser ou promouvoir ce logiciel.
+
+CE LOGICIEL VOUS EST FOURNI PAR LE PROPRIÉRAIRE DU COPYRIGHT "TEL QUEL" ET TOUTE GARANTIE EXPRESSE OU SOUS ENTENDUE, INCLUANT, MAIS PAS SEULEMENT LIMITÉE À, LES GARANTIES APPLIQUÉS POUR LA REVENTE ET LA DISTRIBUTION AINSI QUE TOUTE ALLÉGATION QUE CE LOGICIEL COMBLE UN BESOIN PRÉCIS SONT DÉSAVOUÉES. SOUS AUCUNE CONDITION EST-CE QUE LE PROPRIÉTAIRE DU COPYRIGHT NE PEUT ÊTRE TENU RESPONSABLE POUR TOUT DOMMAGE DIRECT, INDIRECT, ACCIDENTEL, SPÉCIAL, EXEMPLAIRE, OU DU À CERTAINES CONSEQUENCES (INCLUANT, MAIS PAS LIMITÉE À, L'APPROVISIONEMENT DE BIENS ET SERVICES ; À LA PERTE D'UTILISATION, DE DONNÉES, OU DE PROFITS ; OU À UNE INTERRUPTION DE TRAVAIL) TOUTEFOIS CAUSÉE ET SELON AUCUNE LIABILITÉE, SOIS SOUS CONTRACT, PAR SIMPLE LIASON, OU PAR TORD (INCLUANT TOUTE FORME DE NÉGLIGENCE) SURVENANT DE N'IMPORTE QUELLE MANIÈRE PAR L'UTILISATION DE CE LOGICIEL, MÊME SI UNE MISE EN GARDE SOIT ÉMISE À PROPOS D'UN TEL DOMMAGE.
